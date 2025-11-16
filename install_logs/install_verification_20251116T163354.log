@@ -1,0 +1,38 @@
+2025-11-16 17:33:54,657 INFO Installer verified: ./homebrew_installer.sh
+2025-11-16 17:33:54,657 INFO Sanity check: /tmp/HomeBrew_installer.sh exists and non-zero size: True
+2025-11-16 17:33:54,657 INFO Running installer command: NONINTERACTIVE=1 CI=1 INSTALL_DIR='./tmp/homebrew' bash '/tmp/HomeBrew_installer.sh'
+2025-11-16 17:34:04,972 INFO Installer stdout: ==> Running in non-interactive mode because `$NONINTERACTIVE` is set.
+==> Checking for `sudo` access (which may request your password)...
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R wojtekn:admin /usr/local/Homebrew
+==> Downloading and installing Homebrew...
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /Users/wojtekn/.zprofile
+    echo 'eval "$(/usr/local/bin/brew shellenv)"' >> /Users/wojtekn/.zprofile
+    eval "$(/usr/local/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+
+2025-11-16 17:34:04,973 INFO Installer stderr: ==> Updating Homebrew...
+
+2025-11-16 17:34:04,973 INFO Validation: dir exists: True, version.txt: True
+2025-11-16 17:34:04,973 INFO Final status: success
