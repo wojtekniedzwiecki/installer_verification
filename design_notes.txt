@@ -1,0 +1,16 @@
+Design notes:
+
+
+- Accepts CLI inputs for installer location, app label, install directory, dry-run, uninstall, and log path for flexible automation.
+
+- Checks installer file existence and size before running to prevent unnecessary failures.
+
+- Executes the .sh installer silently via environment variables; falls back to simulated install only if real install fails.
+
+- Supports uninstall to clean the install directory, enabling repeatable and idempotent runs.
+
+- Logs all steps with timestamps, command outputs, and produces a JSON summary with detailed run information.
+
+- Uses specific exit codes for success, download failure, install failure, validation failure, and exceptions to communicate outcome clearly.
+
+- Adds unique timestamps to log and summary filenames to avoid overwriting and to improve traceability.

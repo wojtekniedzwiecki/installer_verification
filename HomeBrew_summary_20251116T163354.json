@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "status_code": 0,
+  "duration_seconds": 10,
+  "log_path": "install_verification_20251116T163354.log",
+  "checks_run": [
+    "download",
+    "sanity-check",
+    "install",
+    "validate"
+  ]
+}

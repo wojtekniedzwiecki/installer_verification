@@ -1,0 +1,4 @@
+2025-11-16 17:34:20,225 ERROR Download attempt 1 failed: Installer not found or zero size
+2025-11-16 17:34:22,226 ERROR Download attempt 2 failed: Installer not found or zero size
+2025-11-16 17:34:24,228 ERROR Download attempt 3 failed: Installer not found or zero size
+2025-11-16 17:34:26,232 ERROR Unexpected exception: Download failed

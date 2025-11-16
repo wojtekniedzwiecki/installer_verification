@@ -1,0 +1,11 @@
+{
+  "status": "failure",
+  "status_code": 3,
+  "duration_seconds": 0,
+  "log_path": "install_verification_20251116T163445.log",
+  "checks_run": [
+    "download",
+    "sanity-check",
+    "install"
+  ]
+}

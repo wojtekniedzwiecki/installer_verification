@@ -1,0 +1,9 @@
+{
+  "status": "failure",
+  "status_code": 2,
+  "duration_seconds": 6,
+  "log_path": "install_verification_20251116T163420.log",
+  "checks_run": [
+    "download"
+  ]
+}
