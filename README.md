@@ -1,3 +1,11 @@
+## Introduction  
+Project contains:
+- design notes txt file 
+- installer_verify python script
+- homebrew installer file (for testing purpose)
+- folders with json output files and install logs files with different status codes
+- folder with recording
+
 
 ## Overview  
 Automates testing of `.sh` installers on Linux/macOS. Checks installer integrity, runs silent install or simulates if needed, verifies success, logs actions, and outputs JSON summary for CI.
